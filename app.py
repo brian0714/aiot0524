@@ -36,7 +36,7 @@ def getData():
     mypassword="test123"
     mydb="aiotdb"
     
-    debug =0
+    debug = 0
     from  pandas import DataFrame as df
     import pandas as pd                     # 引用套件並縮寫為 pd
     import numpy as np

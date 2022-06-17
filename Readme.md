@@ -2,34 +2,14 @@
 
 ## Lecture 14: IoT Flask Web (github, vs code)
 
-### Step 1 : Development Environment Setup
-1. Please install vs code, register github, install git for windows
-2. (check-point 1) github create a new repository (aiot0524)
-3. go to vs code clone this repository (choose new branch) 
-4. vs code 安裝 python extension 
-5. pip install flask, pandas, sklearn 
-  * 快捷鍵 ctrl+shift+p ===> package manager 叫出 (git clone....)
-  * 快捷鍵 ctrl+' ==> 叫出終端機 
-6. (check-point 2) 為了要upload local file to github from local要終端機 C:> 設定下面 (不設定 branch default ='main')
-   * C:> git config --global user.name "Huan Chen"
-   * C:> git config --global user.email huanchen1107@gmail.com
-   * C:> git commit -m "first commit"
-   * C:> git remote add origin git@github.com:huanchen1107/aiot0524.git
+### Step 3 : 建立html架構
+1. 建立old_index.html架構並將其定為首頁，但尚未繪製dashboard
+![step3-1](https://user-images.githubusercontent.com/58764201/174356475-0b0ba190-5076-41c4-ba36-cbaee45eaa50.png)
 
-'''text
-  --- below is used to a add a new remote:
+2. 建立indexNoAI.html架構，使local host端加上/noAI 即可出現畫面 包括setRandom及callAI按鈕(但尚未連接功能)
+![step3-2](https://user-images.githubusercontent.com/58764201/174356531-e37df9dd-48e1-4622-b016-6a688270efa2.png)
 
-  git remote add origin git@github.com:User/UserRepo.git
-  
-  ---below is used to change the url of an existing remote repository:
-
-  git remote set-url origin git@github.com:User/UserRepo.git
-  
-  -- below will push your code to the master branch of the remote repository defined with origin and -u let you point your current local branch to the remote master branch:
-
-  git push -u origin master
-'''
-7. Remeber to turn on xampp/MySQL (Apache is not necessary)
-
+3. 加入/data.json表示有爬蟲資料顯示頁面
+4. 尚未連結XAMPP資料庫與AI功能
 
 

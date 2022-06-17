@@ -9,4 +9,4 @@
 ![step4-1](https://user-images.githubusercontent.com/58764201/174357499-df9a1dee-b9a8-4243-a3bd-c818f6737168.png)
 4. 設計indexNoAI.html但無AI功能
 ![step4-2](https://user-images.githubusercontent.com/58764201/174357518-3d5fa2d3-29ed-477b-a0b0-38648eab22f4.png)
-5.尚未連結AI
+5.尚未設計AI模型
